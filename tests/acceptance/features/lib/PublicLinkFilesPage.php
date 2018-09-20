@@ -70,9 +70,12 @@ class PublicLinkFilesPage extends FilesPageBasic {
 	}
 
 	/**
-	 *
 	 * {@inheritDoc}
+	 *
 	 * @see \Page\FilesPageBasic::getFilePathInRowXpath()
+	 *
+	 * @throws \Exception
+	 * @return void
 	 */
 	protected function getFilePathInRowXpath() {
 		throw new \Exception("not implemented in PublicLinkFilesPage");

@@ -205,6 +205,7 @@ class WebUIFilesContext extends RawMinkContext implements Context {
 	 * @param string $tabName
 	 * @param string $fileName
 	 * @param string $folderName
+	 *
 	 * @return void
 	 * @throws Exception
 	 */
@@ -416,6 +417,7 @@ class WebUIFilesContext extends RawMinkContext implements Context {
 	 * @Then there should be exactly :count folder/folders listed on the webUI
 	 *
 	 * @param string $count that is numeric
+	 *
 	 * @return void
 	 */
 	public function thereShouldBeCountFilesFoldersListedOnTheWebUI($count) {
